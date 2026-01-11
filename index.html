@@ -1,24 +1,566 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Oystr</title>    
-  </head>
-  <body>
-    <div id="comingsoon">
-      <div class="card">
-        <img src="media/oystr_logo_black.jpg" alt="oystr_logo_black" width="100" height="100" />
-        <h1>Welcome to Oystr! &#10084;&#65039; </h1>
-        <div class="construction">We will be at service soon.</div>
-      </div>
-      
-    </div>
+<!DOCTYPE html>
+<html lang="en" data-theme="">
+<head>
+    <title>Oystr | Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="static/css/dist/styles.css">
+    <script>
+        document.querySelector('html').dataset.theme = localStorage.getItem('theme');
+
+    </script>
     
-  </body>
+</head>
+
+<body class="m-0 p-0 font-sans bg-base-100 leading-normal tracking-normal">
+    
+    <!-- Navbar -->
+    
+
+    <nav class="m-auto max-w-3xl sticky top-0 isolate z-99">
+        
+        <div class="flex items-center glass-card">
+
+            <a class="" href="/">
+
+                <div class="flex items-center m-0">
+
+                    <!-- oystr logo -->
+                    <svg class="w-[64px] fill-primary" version="1.0" xmlns="http://www.w3.org/2000/svg" width="auto" height="auto" viewBox="0 0 992.000000 1056.000000" preserveAspectRatio="xMidYMid meet">
+
+                      <g transform="translate(0.000000,1056.000000) scale(0.100000,-0.100000)" stroke="none">
+                      <path d="M4835 8191 c-44 -21 -119 -96 -214 -213 -51 -63 -67 -78 -90 -78 -17
+                      0 -72 28 -147 77 -65 42 -133 82 -151 90 -46 19 -140 16 -188 -6 -74 -33 -110
+                      -90 -174 -280 -27 -77 -43 -110 -63 -124 l-26 -20 -124 39 c-100 32 -138 39
+                      -204 39 -71 0 -85 -3 -121 -27 -94 -62 -123 -142 -123 -339 0 -180 6 -174
+                      -197 -182 -181 -8 -216 -15 -274 -60 -65 -49 -84 -95 -84 -197 1 -69 7 -107
+                      37 -203 52 -165 62 -151 -167 -234 -136 -49 -183 -81 -215 -143 -51 -101 -33
+                      -179 80 -349 55 -83 80 -129 80 -150 0 -25 -15 -41 -107 -118 -179 -146 -203
+                      -178 -203 -271 0 -93 6 -97 385 -289 187 -95 350 -172 362 -172 12 -1 111 15
+                      220 34 243 43 528 80 728 95 186 14 195 16 195 39 0 39 42 180 74 248 89 188
+                      232 333 412 420 121 59 215 82 354 90 154 8 282 -18 425 -86 240 -114 421
+                      -337 480 -591 10 -41 19 -80 21 -87 1 -6 27 -14 56 -17 29 -3 159 -17 288 -31
+                      226 -24 507 -64 712 -101 l97 -18 83 43 c46 23 196 99 333 168 138 69 262 137
+                      278 151 48 45 57 132 22 202 -14 27 -78 90 -160 155 -83 67 -135 121 -135 143
+                      0 11 31 66 69 123 103 157 115 184 116 259 1 141 -60 196 -305 280 -52 18
+                      -103 39 -112 48 -25 21 -23 54 13 173 55 181 50 285 -17 359 -60 67 -108 82
+                      -269 87 -77 2 -155 6 -172 9 -50 7 -63 43 -63 165 0 197 -34 290 -127 349 -70
+                      45 -149 42 -316 -10 -174 -54 -177 -52 -231 106 -45 130 -58 161 -95 211 -42
+                      57 -94 83 -171 83 -72 0 -124 -23 -269 -118 -130 -86 -132 -86 -229 36 -84
+                      105 -160 178 -207 198 -47 19 -122 17 -170 -5z"/>
+                      <path d="M4775 5641 c-132 -37 -224 -89 -309 -176 -107 -111 -165 -246 -173
+                      -405 -10 -193 51 -353 186 -488 239 -239 600 -255 862 -39 157 130 238 322
+                      227 535 -15 256 -181 472 -430 559 -101 35 -262 42 -363 14z m70 -161 c30 -33
+                      11 -70 -49 -91 -99 -36 -187 -121 -222 -216 -23 -63 -41 -83 -74 -83 -40 0
+                      -64 31 -55 72 21 93 106 211 197 270 103 67 171 83 203 48z"/>
+                      <path d="M3935 4869 c-616 -52 -1199 -164 -1540 -296 -203 -79 -395 -196 -395
+                      -242 0 -10 17 -25 43 -38 65 -32 118 -83 246 -237 121 -145 159 -176 218 -176
+                      16 0 92 21 169 47 126 43 148 47 234 48 86 0 101 -3 160 -31 41 -20 108 -69
+                      180 -133 63 -55 130 -108 149 -117 52 -25 101 -13 251 59 263 126 319 122 568
+                      -46 214 -144 207 -144 394 -30 267 163 365 164 622 8 134 -80 178 -97 230 -85
+                      19 4 91 47 160 94 151 104 210 133 290 141 85 9 138 -6 295 -81 150 -73 200
+                      -85 252 -60 19 9 89 63 156 120 152 130 207 158 318 164 78 4 91 2 238 -47 86
+                      -28 168 -51 183 -51 61 0 106 36 208 166 113 142 187 214 257 250 27 13 49 28
+                      49 33 0 26 -122 114 -234 169 -314 155 -827 275 -1511 352 -101 11 -308 28
+                      -312 25 -2 -1 -14 -41 -28 -91 -105 -362 -412 -614 -791 -649 -90 -8 -224 10
+                      -329 42 -290 91 -512 323 -591 617 -11 44 -25 81 -30 81 -5 1 -54 -2 -109 -6z"/>
+                      <path d="M7869 4018 c-26 -24 -90 -96 -143 -161 -143 -174 -228 -227 -364
+                      -227 -77 0 -127 12 -270 65 -161 59 -159 60 -387 -130 -121 -100 -177 -127
+                      -282 -133 -100 -5 -137 5 -307 89 -175 86 -186 85 -364 -40 -119 -84 -180
+                      -115 -255 -131 -109 -22 -236 18 -402 127 -138 91 -180 93 -296 18 -200 -129
+                      -306 -166 -422 -146 -93 15 -117 28 -346 187 -91 62 -119 61 -281 -15 -175
+                      -83 -215 -94 -308 -89 -122 7 -200 50 -377 208 -120 107 -131 108 -349 35
+                      -111 -38 -146 -45 -209 -45 -151 0 -229 50 -390 247 -135 165 -194 211 -180
+                      141 115 -607 752 -1106 1708 -1338 405 -98 807 -143 1285 -144 713 -1 1339
+                      111 1865 335 510 216 881 528 1041 873 38 84 87 256 82 294 -3 21 -6 20 -49
+                      -20z"/>
+                      </g>
+
+                    </svg>
+
+                    <!-- oystr wordmark -->
+                    <svg class="h-[44px] fill-primary"
+                    width="auto"
+                    height="auto"
+                    viewBox="0 0 124.89158 39.092197"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:svg="http://www.w3.org/2000/svg">
+                    
+                    <g
+                        transform="translate(-42.974105,-89.852246)">
+                        <path
+                        d="m 55.450863,115.02901 q 1.116211,0 1.860351,-0.89297 0.744141,-0.89297 1.091406,-2.28203 0.372071,-1.41387 0.372071,-2.95176 0,-1.5627 -0.372071,-3.00137 -0.37207,-1.46347 -1.116211,-2.38125 -0.74414,-0.91777 -1.835546,-0.91777 -1.091407,0 -1.835547,0.91777 -0.744141,0.91778 -1.116211,2.35645 -0.37207,1.43867 -0.37207,3.00136 0,1.5379 0.37207,2.95176 0.37207,1.41387 1.091406,2.30684 0.744141,0.89297 1.860352,0.89297 z m -10.566797,-2.82774 q 0.198437,0 0.37207,-0.29765 0.198438,-0.29766 0.198438,-0.66973 l -0.02479,-0.37207 q -0.02479,-0.27285 -0.02479,-0.71934 0,-1.66191 0.545703,-3.54707 0.570508,-1.88515 1.736328,-3.54707 1.16582,-1.68672 3.026172,-2.82773 0.644922,-0.47129 0.644922,-1.041798 0,-0.42168 -0.322461,-0.768945 -0.297656,-0.347266 -0.744141,-0.347266 -0.297656,0 -0.620117,0.198438 -2.455664,1.736328 -3.894336,4.737691 -1.413867,2.97657 -1.413867,6.47403 0,2.72851 0.520898,2.72851 z M 53.119222,98.5835 q 0.843359,0 1.413867,-0.297657 0.595313,-0.322461 0.595313,-0.694531 0,-0.322461 -0.347266,-0.570508 -0.322461,-0.248047 -0.868164,-0.248047 -0.79375,0 -1.438672,0.396875 -0.644922,0.396875 -0.644922,0.744141 0,0.570508 1.289844,0.669727 z m 2.331641,24.97832 q -3.050977,0 -5.382617,-1.11621 -2.306836,-1.11621 -3.894336,-3.05098 -1.562696,-1.93476 -2.38125,-4.46484 -0.79375,-2.53008 -0.818555,-5.40742 0,-4.06797 1.389062,-7.3918 1.413868,-3.348633 4.191993,-5.308203 2.778125,-1.984375 6.895703,-1.984375 4.117578,0 6.895703,1.984375 2.778125,1.95957 4.191992,5.308203 1.413867,3.32383 1.413867,7.3918 -0.02479,2.87734 -0.843359,5.40742 -0.79375,2.53008 -2.38125,4.46484 -1.562696,1.93477 -3.894336,3.05098 -2.331641,1.11621 -5.382617,1.11621 z m 25.77207,5.38262 q -6.746875,0 -8.830469,-2.82774 -0.917773,-1.48828 -0.917773,-3.00136 0,-1.81075 1.041796,-3.22461 1.066602,-1.41387 2.530079,-1.41387 0.793749,0 2.505273,0.74414 0.992187,0.39687 2.00918,0.71934 1.041796,0.32246 2.133203,0.34726 1.240234,0 1.909961,-0.64492 0.669726,-0.64492 0.669726,-1.41387 0,-1.76113 -2.703711,-1.81074 -1.240234,0 -2.306836,0.14883 -1.066601,0.14883 -2.108398,0.14883 -2.902148,-0.0992 -4.440039,-1.68672 -1.513086,-1.5875 -2.058789,-4.11758 -0.545703,-2.53008 -0.545703,-5.38262 0,-2.80293 0.248047,-5.20898 l 0.04961,-0.669729 q 0.148828,-1.835547 0.892969,-2.902148 0.768945,-1.066602 1.860351,-1.488281 1.091407,-0.42168 2.182813,-0.42168 2.356445,0 3.348633,0.942578 1.016992,0.917773 1.041796,2.629297 0.02479,1.413867 0.02479,2.902153 v 0.62011 q 0,5.77949 0.644922,7.14375 0.297656,0.66973 0.942578,0.66973 0.818554,0 1.215429,-0.84336 0.42168,-0.84336 0.47129,-2.03398 l 0.02479,-1.66192 q 0,-1.76113 -0.07441,-3.59668 -0.04961,-1.86035 -0.04961,-3.398241 0,-1.190625 0.768945,-1.934765 0.768945,-0.744141 1.885156,-1.091407 1.141016,-0.347265 2.331641,-0.347265 1.53789,0 2.852539,0.595312 1.314648,0.595313 1.711523,2.133203 0.173633,1.041797 0.173633,4.216793 0,5.23379 -0.223242,12.6752 -0.124024,4.19199 -0.148828,6.57324 -0.09922,2.6541 -1.835547,4.41524 -1.711524,1.76113 -4.266406,2.62929 -2.554883,0.86817 -4.960938,0.86817 z m -9.177735,-19.69492 q 0.322461,0 0.42168,-1.0418 0.04961,-1.11621 0.04961,-2.38125 v -0.71934 q 0,-2.1084 0.272852,-4.14238 0.272852,-2.033985 1.562695,-2.80293 0.669727,-0.396875 0.669727,-0.768945 0,-0.272852 -0.297656,-0.471289 -0.272852,-0.198438 -0.644922,-0.198438 -1.041797,0 -1.686719,0.992188 -0.620117,0.967382 -0.917773,2.554884 -0.297657,1.56269 -0.297657,3.29902 0,2.50528 0.248047,4.09278 0.272852,1.5875 0.620116,1.5875 z m 4.81211,-11.434966 q 0.644922,0 0.942578,-0.223242 0.297656,-0.223242 0.297656,-0.496094 0,-0.297656 -0.322461,-0.545703 -0.297656,-0.272851 -0.892969,-0.272851 -1.438672,0.09922 -1.438672,0.694531 0,0.297656 0.372071,0.570508 0.37207,0.248047 1.041797,0.272851 z m 29.492772,25.920896 q -3.89434,-0.0744 -6.17637,-0.76894 -2.257223,-0.71934 -3.199801,-2.03399 -0.942578,-1.31465 -0.942578,-3.22461 0,-1.19062 0.322461,-2.30683 0.347265,-1.11621 0.942578,-1.83555 0.620117,-0.71934 1.463476,-0.71934 0.892969,0.0992 1.711524,0.5209 0.84336,0.39688 1.63711,0.94258 0.81855,0.5209 1.66191,0.94258 0.84336,0.39687 1.98438,0.42168 1.38906,0 2.1332,-0.47129 0.74414,-0.47129 0.74414,-1.0666 0,-0.57051 -0.71933,-1.0666 -0.71934,-0.4961 -2.20762,-0.64492 -3.6959,-0.24805 -6.39961,-1.81075 -2.678907,-1.5875 -3.175,-5.45703 -0.04961,-0.49609 -0.04961,-0.99219 0,-2.30683 1.016992,-4.04316 1.016993,-1.761133 2.703711,-2.926953 1.711527,-1.16582 3.795117,-1.761133 2.08359,-0.595312 4.2416,-0.595312 3.24942,0.02479 5.68028,1.141015 1.86035,0.942579 2.6541,2.182813 0.81855,1.21543 0.81855,2.43086 0,1.63711 -1.16582,2.90215 -1.16582,1.24023 -2.82773,1.24023 -0.74414,0 -1.5627,-0.32246 -0.79375,-0.34726 -1.51308,-0.57051 -0.69454,-0.22324 -1.36426,-0.22324 -1.48828,0.0496 -2.25723,0.49609 -0.74414,0.44649 -0.74414,1.017 0,0.5209 0.66973,0.96738 0.69453,0.44648 2.08359,0.5209 5.01055,0.32246 7.44141,2.50527 2.43086,2.18281 2.48047,5.13457 v 0.39688 q 0,4.44004 -3.10059,6.77168 -3.07578,2.30683 -8.78086,2.30683 z m 0.0744,-25.821677 q 1.5627,-0.02479 1.5627,-0.620117 0,-0.248047 -0.34727,-0.471289 -0.32246,-0.223242 -0.84335,-0.223242 -0.47129,0 -0.94258,0.173632 -0.44649,0.148829 -0.74414,0.372071 -0.29766,0.198437 -0.29766,0.347265 0,0.372071 1.6123,0.42168 z m -7.987104,9.599417 q 0.124023,0 0.124023,-0.71934 l -0.0496,-1.31465 q 0,-4.44004 4.440041,-6.598044 0.62012,-0.37207 0.62012,-0.644922 0,-0.173633 -0.22325,-0.297656 -0.19843,-0.124024 -0.52089,-0.124024 -0.27286,0 -0.57051,0.09922 -2.03399,0.719336 -3.323832,2.530076 -1.265039,1.81074 -1.265039,3.94395 0,0.69453 0.148828,1.41386 0.148828,0.71934 0.322461,1.21543 0.198438,0.4961 0.297657,0.4961 z m 33.560744,16.09824 q -3.99356,0 -5.48184,-1.38906 -1.0914,-1.11621 -1.68672,-3.02618 -1.0666,-3.34863 -1.0666,-8.4832 0,-1.86035 0.12402,-3.59668 l 0.0992,-1.33945 q 0,-0.64492 -0.27285,-0.84336 -0.24805,-0.19844 -1.01699,-0.19844 l -0.81856,0.0248 q -1.28984,0 -2.1332,-1.21543 -0.84336,-1.21543 -0.84336,-2.55488 0,-1.091405 0.66973,-1.934765 0.69453,-0.843359 2.28203,-0.843359 h 0.39688 q 1.0914,0 1.43867,-0.297656 0.37207,-0.297656 0.37207,-1.438672 0,-2.38125 0.57051,-4.34082 0.34726,-1.116211 1.5875,-1.686719 1.26503,-0.595313 2.72851,-0.595313 1.63711,0 2.97656,0.768946 1.36426,0.74414 1.51309,2.306836 l 0.0496,0.818554 q 0.0744,0.942578 0.0744,1.835547 0,0.297656 0,0.471289 0,0.173633 -0.0248,0.347266 0,0.173633 -0.0248,0.446484 0,0.744141 0.27285,1.016992 0.27285,0.248047 0.79375,0.248047 0.5457,0 1.26504,-0.148828 0.74414,-0.173633 1.90996,-0.272851 1.01699,0 1.68672,0.496093 0.66973,0.496094 0.99219,1.265039 0.32246,0.76895 0.32246,1.61231 0,1.24023 -0.71934,2.25722 -0.69453,1.01699 -2.05879,1.01699 -0.32246,0 -1.38906,-0.17363 -1.0418,-0.19844 -1.86035,-0.19844 -0.71934,0 -1.19063,0.32246 -0.47128,0.29766 -0.59531,1.16582 -0.17363,1.31465 -0.17363,2.90215 0,2.90215 0.32246,5.58106 0.0992,0.79375 0.5209,1.0666 0.42168,0.27285 0.99219,0.27285 0.76894,0 1.28984,-0.0992 0.5209,-0.12402 1.16582,-0.19844 1.09141,0 1.78594,0.57051 0.69453,0.57051 1.01699,1.46348 0.32246,0.86816 0.32246,1.83555 0,1.26503 -0.5209,2.38125 -0.49609,1.0914 -1.38906,1.46347 -1.0666,0.39688 -2.77813,0.66973 -1.71152,0.24805 -3.49746,0.24805 z m -1.41387,-31.278712 q 0.39688,0 0.57051,-0.148828 0.19844,-0.173632 0.19844,-0.37207 0,-0.198437 -0.19844,-0.37207 -0.19844,-0.173633 -0.57051,-0.173633 -0.37207,0 -0.74414,0.198437 -0.37207,0.173633 -0.37207,0.42168 0,0.446484 1.11621,0.446484 z m -4.46484,6.598047 q 0.27285,0 0.29765,-0.818554 v -0.396875 q 0,-2.678907 1.68672,-4.514454 0.5209,-0.570507 0.5209,-0.892968 0,-0.42168 -0.59531,-0.42168 -0.44649,0 -0.94258,0.297656 -0.81856,0.620117 -1.31465,1.984375 -0.47129,1.364258 -0.47129,2.604492 0,1.016993 0.29766,1.5875 0.32246,0.570508 0.5209,0.570508 z m 22.225,24.631055 q -1.63711,0 -2.67891,-0.76895 -1.90996,-1.43867 -2.18281,-5.01054 -0.34727,-4.2168 -0.34727,-13.32012 l 0.0248,-3.91914 q 0.0496,-2.133203 0.86817,-3.373438 0.84336,-1.265039 2.1332,-1.785937 1.31465,-0.545703 2.72852,-0.545703 1.71152,0 3.175,0.595312 1.46347,0.570508 2.03398,1.413868 0.19844,0.347265 0.22324,1.240234 0,0.620117 0.24805,0.620117 0.24805,0 0.64492,-0.471289 2.60449,-2.877344 5.18418,-2.877344 3.37344,0.04961 5.35781,2.133203 2.00918,2.058789 2.1084,6.176367 0,1.63711 -0.66972,2.77813 -0.64493,1.14101 -1.71153,1.86035 -1.0418,0.71933 -2.25722,1.0666 -1.21543,0.32246 -2.30684,0.32246 -1.26504,0 -2.15801,-0.37207 -0.89297,-0.39688 -0.99219,-1.09141 -0.12402,-1.0666 -0.64492,-1.6123 -0.49609,-0.5457 -1.0914,-0.5457 -0.74414,0 -1.38907,0.86816 -0.64492,0.86816 -0.64492,2.70371 0,3.29902 0.17363,7.9623 l 0.0248,0.69454 q 0,2.97656 -1.31465,4.11757 -1.28985,1.14102 -4.53926,1.14102 z m 1.81074,-25.424805 q 0.74414,0 1.0914,-0.248047 0.34727,-0.248047 0.34727,-0.545703 0,-0.297656 -0.32246,-0.545703 -0.29766,-0.248047 -0.86816,-0.248047 -0.59532,0 -1.06661,0.248047 -0.47129,0.223242 -0.47129,0.520899 0,0.297656 0.37207,0.570507 0.39688,0.248047 0.91778,0.248047 z m -4.46485,13.444145 q 0.19844,0 0.32247,-0.22325 0.14882,-0.24804 0.14882,-0.71933 l -0.0248,-0.71934 -0.0248,-1.43867 q 0,-2.92695 0.44649,-5.2834 0.44648,-2.38125 1.38906,-3.497459 0.5209,-0.620118 0.5209,-1.066602 0,-0.42168 -0.32246,-0.644922 -0.32247,-0.248047 -0.76895,-0.248047 -0.44648,0 -0.91777,0.272852 -1.88516,1.265039 -1.88516,6.573238 0,3.00137 0.39688,5.7795 0.0744,0.59531 0.27285,0.91777 0.22324,0.29766 0.44648,0.29766 z"
+                        
+                        aria-label="oystr" />
+                    </g>
+                    </svg>
+
+
+                </div>
+
+            </a>
+
+            <div class="ml-auto">
+                <select name="theme" id="themeSelect" onchange="setTheme(this, event)">
+
+                    <option value="light" class="text-secondary">light</option>
+                    <option value="dark" class="text-secondary">dark</option>
+                    <option value="cupcake"  class="text-secondary" >cupcake</option>
+                    <option value="bumblebee" class="text-secondary">bumblebee</option>
+                    <option value="emerald" class="text-secondary">emerald</option>
+                    <option value="corporate" class="text-secondary">corporate</option>
+                    <option value="synthwave" class="text-secondary">synthwave</option>
+                    <option value="retro" class="text-secondary">retro</option>
+                    <option value="cyberpunk" class="text-secondary">cyberpunk</option>
+                    <option value="valentine" class="text-secondary">valentine</option>
+                    <option value="halloween" class="text-secondary">halloween</option>
+                    <option value="garden" class="text-secondary">garden</option>
+                    <option value="forest" class="text-secondary">forest</option>
+                    <option value="aqua" class="text-secondary">aqua</option>
+                    <option value="lofi" class="text-secondary">lofi</option>
+                    <option value="pastel" class="text-secondary">pastel</option>
+                    <option value="fantasy" class="text-secondary">fantasy</option>
+                    <option value="wireframe" class="text-secondary">wireframe</option>
+                    <option value="black" class="text-secondary">black</option>
+                    <option value="luxury" class="text-secondary">luxury</option>
+                    <option value="dracula" class="text-secondary">dracula</option>
+                    <option value="cmyk" class="text-secondary">cmyk</option>
+                    <option value="autumn" class="text-secondary">autumn</option>
+                    <option value="business" class="text-secondary">business</option>
+                    <option value="acid" class="text-secondary">acid</option>
+                    <option value="lemonade" class="text-secondary">lemonade</option>
+                    <option value="night" class="text-secondary">night</option>
+                    <option value="coffee" class="text-secondary">coffee</option>
+                    <option value="winter" class="text-secondary">winter</option>
+                    <option value="dim" class="text-secondary">dim</option>
+                    <option value="nord" class="text-secondary">nord</option>
+                    <option value="sunset" class="text-secondary">sunset</option>
+                    <option value="caramellatte" class="text-secondary">caramellatte</option>
+                    <option value="abyss" class="text-secondary">abyss</option>
+                    <option value="silk" class="text-secondary">silk</option>
+
+                </select>
+                <script>
+                    let a = document.querySelector('#themeSelect').querySelector(`[value=${localStorage.getItem('theme')}]`);
+                    if (a) {
+                        a.setAttribute('selected', 'selected');
+                    }
+                </script>
+            </div>
+
+            <div class="ml-auto mr-[10px] relative">
+
+                
+                
+                <button type="button" class="active:translate-y-[2px]" onclick="activeToggle()">
+
+                    <i>
+                      
+                        <svg class="w-[40px] stroke-base-content" width="auto" height="auto" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+
+                            <path d="M4 6H20M4 12H20M4 18H20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+                        </svg>
+
+                    </i>
+
+                </button>
+                
+                
+                
+            
+            </div>
+
+        </div>
+
+        <div id="dropdown_content" class="absolute hidden bg-inherit top-[calc(100% - 7px)] right-0 p-[20px] glass-card rounded-none">
+
+        
+
+            
+            <p>  <a href="">   <button class="btn btn-primary btn-block btn-sm rounded-full my-[4px] font-bold" type="button">Register</button>  </a>  </p>
+
+            <p>  <a href="">   <button class="btn btn-outline btn-primary btn-block btn-sm rounded-full my-[4px] font-bold" type="button">Login</button>  </a>  </p>
+
+            
+        </div>
+
+    </nav>
+    <script>
+      function activeToggle() {
+        const toggleMenu = document.querySelector("#dropdown_content");
+        toggleMenu.classList.toggle("hidden");
+      }
+
+      function setTheme(element, event) {
+        let html = document.querySelector('html');
+        html.dataset.theme = element.value;
+        localStorage.setItem('theme', element.value);
+        
+      }
+
+      themeSelect.addEventListener
+    </script>
+
+
+
+    <!-- Hero Section -->
+
+    <section id="hero" class="hero min-h-[calc(90vh)]" style="background-image: url('static/index/assets/ordinary-life-scene-from-mall-america.jpg');">
+      <!-- <div class="hero-overlay"></div> -->
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <div class="hero-overlay rounded-xl p-8">
+          <div class="w-full max-w-xl">
+            <div class="">
+              <!-- prose md:prose-lg lg:prose-xl max-w-none -->
+              
+                <span class="badge badge-secondary badge-outline mb-4">
+
+                    Super Simple Setup
+
+                </span>
+                
+                <h1 class="text-3xl md:text-5xl text-white font-extrabold leading-tight">
+                  
+                    Create Digital Menu for your
+                
+                
+                
+                  
+                    <span class="text-rotate text-3xl md:text-5xl italic duration-5000">
+                      <span class="font-extrabold">
+                        <span class=" px-2 rounded-lg bg-accent text-accent-content">RESTAURANT.</span>
+                        <span class=" px-2 rounded-lg bg-accent text-accent-content">CAFE.</span>
+                        <span class=" px-2 rounded-lg bg-accent text-accent-content">CLOUD KITCHEN.</span>
+                        <span class=" px-2 rounded-lg bg-accent text-accent-content">BAKERY.</span>
+                      </span>
+                    </span>  
+                
+                </h1>
+
+                <p class="py-4 text-base-content/70">
+
+                    Create beautiful, conversion-focused menu designs with ready-made themes, smart defaults, and a themeable color system powered by Oystr design team.
+
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-3 mt-2">
+
+                    <button class="btn btn-neutral">
+
+                        Start free
+
+                    </button>
+
+                    <button class="btn btn-outline btn-neutral text-neutral-content">
+
+                        View live demo
+
+                    </button>
+
+                </div>
+
+                <p class="mt-4 text-xs text-base-content/60">
+
+                    Configure the menu yourself. Deploy in under 10 minutes.
+
+                </p>
+
+
+            </div>
+          </div>
+          
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Features -->
+    <section id="features" class="py-16 bg-base-100">
+
+        <div class="container mx-auto px-4 max-w-5xl">
+
+            <div class="text-center mb-10">
+
+                <h2 class="text-2xl md:text-3xl font-bold">
+
+                    Benefits of Oystr digital menu
+
+                </h2>
+
+                <p class="mt-2 text-base-content/70 maz-w-2xl mx-auto">
+
+                    We provide an interface where you can create your shop menu and make it visible to the world in minutes. 
+
+                </p>
+
+            </div>
+
+            <div class="grid gap-6 md:grid-cols-3">
+
+                <div class="card bg-base-300 shadow-sm border border-base-200">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title text-lg">
+
+                            Shop-specific QR code and url
+
+                        </h3>
+
+                        <p class="text-sm text-base-content/70">
+
+                            Oystr menu is accessible to everyone, anytime. Just scan the shop-specific QR code or navigate to the shop-specific url.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="card bg-base-300 shadow-sm border border-base-200">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title text-lg">
+
+                            Fingertips update
+
+                        </h3>
+
+                        <p class="text-sm text-base-content/70">
+
+                            Update your menu anytime you do a price change or add/remove some items.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="card bg-base-300 shadow-sm border border-base-200">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title text-lg">Ready-made themes and design</h3>
+
+                        <p class="text-sm text-base-content/70">
+                          
+                            Choose the menu to be visible in the themes which suits your brand identity.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="card bg-base-300 shadow-sm border border-base-200">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title text-lg">Digital Menu never wear out like paper.</h3>
+
+                        <p class="text-sm text-base-content/70">
+                          
+                            Your menu is as new as the phone in which it is accessed.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="card bg-base-300 shadow-sm border border-base-200">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title text-lg">
+
+                            Shop locater and online ordering links.
+
+                        </h3>
+
+                        <p class="text-sm text-base-content/70">
+
+                            Add your shop location and online order taking links in your digital menu.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="card bg-base-300 shadow-sm border border-base-200">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title text-lg">
+
+                            Multi-language and Accessiblity support
+
+                        </h3>
+
+                        <p class="text-sm text-base-content/70">
+
+                            Oystr menu can be configured to be visible in multiple language. Also accessible by visually impaired person through our accessibility support. 
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- trust -->
+    <section class="py-16 bg-base-200">
+
+        <div class="container mx-auto px-4 max-w-4xl text-center">
+
+            <p class="text-sm uppercase tracking-wide text-base-content/60 mb-10">
+
+                Trusted by Owners & Managers
+
+            </p>
+
+            <div class="flex overflow-scroll justify-evenly">
+
+                <div class="card card-lg bg-base-100 border-base-300 rounded-2xl min-w-xs p-8 m-4">
+
+                    <p class="mt-6 text-md md:text-lg font-semibold">
+
+                        "This starter saved days of design work. Swapping themes is a single attribute change."
+
+                    </p>
+                    <p class="mt-3 text-sm text-base-content/70">
+
+                        Sushant Singh, Restaurant Owner.
+
+                    </p>
+
+                </div>
+
+                <div class="card card-lg bg-base-100 border-base-300 rounded-2xl min-w-xs p-8 m-4">
+
+                    <p class="mt-6 text-md md:text-lg font-semibold">
+
+                        "This starter saved days of design work. Swapping themes is a single attribute change."
+
+                    </p>
+                    <p class="mt-3 text-sm text-base-content/70">
+
+                        Sushant Singh, Restaurant Owner.
+
+                    </p>
+
+                </div>
+
+                <div class="card card-lg bg-base-100 border-base-300 rounded-2xl min-w-xs p-8 m-4">
+
+                    <p class="mt-6 text-md md:text-lg font-semibold">
+
+                        "This starter saved days of design work. Swapping themes is a single attribute change."
+
+                    </p>
+                    <p class="mt-3 text-sm text-base-content/70">
+
+                        Sushant Singh, Restaurant Owner.
+
+                    </p>
+
+                </div>
+
+                <div class="card card-lg bg-base-100 border-base-300 rounded-2xl min-w-xs p-8 m-4">
+
+                    <p class="mt-6 text-md md:text-lg font-semibold">
+
+                        "This starter saved days of design work. Swapping themes is a single attribute change."
+
+                    </p>
+                    <p class="mt-3 text-sm text-base-content/70">
+
+                        Sushant Singh, Restaurant Owner.
+
+                    </p>
+
+                </div>
+
+                <div class="card card-lg bg-base-100 border-base-300 rounded-2xl min-w-xs p-8 m-4">
+
+                    <p class="mt-6 text-md md:text-lg font-semibold">
+
+                        "This starter saved days of design work. Swapping themes is a single attribute change."
+
+                    </p>
+                    <p class="mt-3 text-sm text-base-content/70">
+
+                        Sushant Singh, Restaurant Owner.
+
+                    </p>
+
+                </div>
+
+                
+
+                
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Final CTA -->
+    <section id="finalcta" class="py-16 bg-base-100">
+
+        <div class="container mx-auto px-4 max-w-3xl text-center">
+
+            <h2 class="text-2xl md:text-3xl font-bold">
+                Ready to create your Oystr Digital Menu?
+            </h2>
+
+            <p class="mt-3 text-base-content/70">
+
+                Signup now. Take your menu online in no efforts.
+
+            </p>
+
+            <div class="mt-6 flex flex-col sm:flex-row justify-center gap-3">
+
+                <button class="btn btn-primary">
+                    Get started free.
+                </button>
+
+                <button class="btn btn-outline">
+                    Check Menu Demos
+                </button>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="py-8 border-t border-base-300 text-center text-xs text-base-content/60">
+
+        Copyright 2026, Oystr. All right reserved.
+
+    </footer>
+
+
+</body>
 </html>
